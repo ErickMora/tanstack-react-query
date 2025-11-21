@@ -7,7 +7,7 @@ export type User = {
   email: string
 }
 
-export const DEPLOY_URL = 'http://localhost:3000'
+export const DEPLOY_URL = 'https://tanstack-react-query.emora.workers.dev'
 
 export const usersQueryOptions = () =>
   queryOptions({
